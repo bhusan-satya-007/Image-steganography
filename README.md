@@ -2,18 +2,9 @@
 ---
 ## This is a project on Image Steganography which is performed using <span style="color:Cyan">Block-DCT and Huffman Coding </span>
 ---
-## Description :
-                  Image steganography is the art of hiding information into a cover 
-    image. This project presents a technique for Image steganography based 
-    on Block-DCT, where DCT is used to transform original image (cover image) 
-    blocks from spatial domain to frequency domain. Firstly a grey scale image of 
-    size M× N is divided into no joint 8 × 8 blocks and a two dimensional Discrete 
-    Cosine Transform(2-d DCT) is performed on each of the P = MN / 64 blocks. 
-    Then Huffman encoding is also performed on the secret messages/images 
-    before embedding and each bit of Huffman code of secret message/image is 
-    embedded in the frequency domain by altering the least significant bit of each 
-    of the DCT coefficients of cover image blocks.
-## Methodology :
+### Description :
+Image steganography is the art of hiding information into a cover image. This project presents a technique for Image steganography based on Block-DCT, where DCT is used to transform original image (cover image) blocks from spatial domain to frequency domain. Firstly a grey scale image of size M× N is divided into no joint 8 × 8 blocks and a two dimensional Discrete Cosine Transform(2-d DCT) is performed on each of the P = MN / 64 blocks. Then Huffman encoding is also performed on the secret messages/images before embedding and each bit of Huffman code of secret message/image is embedded in the frequency domain by altering the least significant bit of each of the DCT coefficients of cover image blocks.
+### Methodology :
     This Method of Image Steganography uses Huffman Coding to embed the bits into the cover image
     Since Huffman Coding decreases the number of bits required to embed
     The Image Quality of The Cover Image is not reduced Heavily as compared to normal lsb embedding 
@@ -35,7 +26,7 @@
     scanning is done which results in 1d array which is arranged in acceding order.    
 
     Note That All of These operations are performed on individual Block Matrix i.e(8*8 Matrices) of Image Matrix
-## References :
+### References :
 ---
 - #### Research Papers : 
    - [A novel technique for image steganography based on Block-DCT and Huffman Encoding](https://www.researchgate.net/publication/220487276_A_novel_technique_for_image_steganography_based_on_Block-DCT_and_Huffman_Encoding)
